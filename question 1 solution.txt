@@ -1,0 +1,35 @@
+UPDATE works_on
+    SET essn = '123456789'
+    WHERE hours='40'
+
+UPDATE employee
+    SET ssn = '0'
+    WHERE ssn = '666884444'
+	
+UPDATE works_on
+    SET essn = '0'
+    WHERE essn= '123456789'
+	
+UPDATE dependent
+    SET essn = '0'
+    WHERE essn= '123456789'
+	
+UPDATE employee
+    SET ssn = '666884444'
+    WHERE ssn= '123456789'
+	
+UPDATE dependent
+    SET essn = '666884444'
+    WHERE essn= '0'
+
+UPDATE works_on
+    SET essn = '666884444'
+    WHERE essn= '0'
+
+UPDATE employee
+    SET ssn = '123456789'
+    WHERE ssn= '0'
+
+UPDATE works_on
+    SET essn = '123456789'
+    WHERE hours = '40'
